@@ -102,6 +102,7 @@
 //                                                                 |     ADJ       |               |               |               |               |               |     ADJ       |                             
                                                                    &trans          &none           &trans                          &trans          &none           &trans          
                         >;
+                };
                 media_layer {
                         display-name = "MED";
                         bindings = <
@@ -118,6 +119,7 @@
 //                                                                 |               |               |               |               |               |               |               |                             
                                                                    &none           &none           &none                           &none           &none           &none           
                         >;
+                };
                 mus_layer {
                         display-name = "MUS";
                         bindings = <
