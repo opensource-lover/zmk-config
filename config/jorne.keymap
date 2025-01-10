@@ -152,7 +152,7 @@
                         bindings = <
 // DONE_____________________________________________________________________________________________________________               _________________________________________________________________________________________________________________
 //|     RNT        |               | ScrollLeft    | ScrollDown    | ScrollUp      | ScrollRight   |               |               |               |               |               |               |               |               |               |
-  &tog RNT         &none           &SCRL_LEFT      &SCRL_DOWN      &SCRL_UP        &SCRL_RIGHT     &kp LC(5)                       &none           &none           &none           &none           &none           &none           &none
+  &tog RNT         &none           &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP    &msc SCRL_RIGHT &kp LC(5)                       &none           &none           &none           &none           &none           &none           &none
 //                 _________________________________________________________________________________________________               _________________________________________________________________________________________________
 //                 |               |               |               |               |               |               |               |               |               |               |               |               |               |              
                    &none           &kp LC(1)       &kp LC(2)       &kp LC(3)       &kp LC(4)       &kp LC(D)                       &none           &none           &none           &none           &none           &none            
