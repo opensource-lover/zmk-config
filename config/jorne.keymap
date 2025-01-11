@@ -52,7 +52,7 @@
    &tog RNT        &kp GRAVE       &kp Q           &kp W           &kp E           &kp R           &kp T                           &kp Y           &kp U           &kp I           &kp O           &kp P           &none           &none
 //                 _________________________________________________________________________________________________               _________________________________________________________________________________________________
 //                 |     ESC       |      A        |      S        |      D        |      F        |      G        |               |      H        |      J        |      K        |      L        |      ;        |               |
-                   &kp ESC         &hm LGUI A      &hm LALT S      &hm LSHFT D     &hm LCTRL F     &kp G                           &kp H           &hm RCTRL J     &hm RSHFT K     &hm RALT L      &hm RGUI SEMI   &none
+                   &kp ESC         &hm LGUI A      &hm LALT S      &hm LSHFT D     &hm LCTRL F     &kp G                           &kp H           &hm RCTRL J     &hm RSHFT K     &hm LALT L      &hm RGUI SEMI   &none
 //                 _________________________________________________________________________________________________               _________________________________________________________________________________________________
 //                 |   CAPSWORD    |      Z        |      X        |      C        |      V        |      B        |               |      N        |      M        |      ,        |      .        |      /        |    CAPSWORD   |
                    &caps_word      &kp Z           &kp X           &kp C           &kp V           &kp B                           &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &caps_word   
@@ -68,11 +68,11 @@
 // |              |      `       |      [       |      ^       |      $       |      ]       |      %       |              |      &       |      =       |      -       |      +       |      *       |              |              |
    &none          &kp GRAVE      &kp LBKT       &kp CARET      &kp DLLR       &kp RBKT       &kp PRCNT                     &kp AMPS       &kp EQUAL      &kp KP_MINUS   &kp KP_PLUS    &kp KP_MULTIPLY &none         &none
 //                ___________________________________________________________________________________________              ___________________________________________________________________________________________
-//                |              |      (       |      '       |      :       |      )       |      @       |              |      !       |      <       |      _       |      ?       |      >       |      ~       |
-                  &trans         &kp LPAR       &kp APOS       &kp COLON      &kp RPAR       &kp AT                        &kp EXCL       &kp LT         &kp UNDER      &kp QMARK      &kp GT         &kp TILDE
+//                |              |      (       |      '       |      :       |      )       |      #       |              |      !       |      <       |      _       |      ?       |      >       |      ~       |
+                  &trans         &kp LPAR       &kp APOS       &kp LS(P)      &kp RPAR       &kp HASH                      &kp EXCL       &kp LT         &kp UNDER      &kp QMARK      &kp GT         &kp TILDE
 //                ___________________________________________________________________________________________              ___________________________________________________________________________________________
-//                |              |      {       |      "       |      ;       |      }       |      #       |              |      |       |      \       |              |              |              |              |
-                  &none          &kp LBRC       &kp DQT        &kp SEMI       &kp RBRC       &kp HASH                      &kp PIPE       &kp BSLH       &trans         &trans         &trans         &none         
+//                |              |      {       |      "       |      ;       |      }       |       @      |              |      |       |      \       |              |              |              |              |
+                  &none          &kp LBRC       &kp DQT        &kp P          &kp RBRC       &kp AT                        &kp PIPE       &kp BSLH       &trans         &trans         &trans         &none         
 //                                                             ______________________________________________              ______________________________________________
 //                                                             |              |              |              |              |              |              |              |
                                                                &trans         &kp LANG1      &trans                        &kp BSPC       &kp LANG1      &none         
@@ -83,17 +83,17 @@
                         display-name = "NUM";
                         bindings = <
 // DONE______________________________________________________________________________________________________              __________________________________________________________________________________________________________
-// |              |              |              |              |              |              |              |              |              |              |              |              |              |              |              |
-   &none          &trans         &trans         &trans         &trans         &trans         &trans                        &trans         &trans         &trans         &trans         &trans         &trans         &trans            
+// |              |      `       |      [       |      ^       |      $       |      ]       |      %       |              |      &       |      =       |      -       |      +       |      *       |              |              |
+   &none          &kp GRAVE      &kp LBKT       &kp CARET      &kp DLLR       &kp RBKT       &kp PRCNT                     &kp AMPS       &kp EQUAL      &kp KP_MINUS   &kp KP_PLUS    &kp KP_MULTIPLY &none         &none
 //                ___________________________________________________________________________________________              ___________________________________________________________________________________________
 //                |              |      1       |      2       |      3       |      4       |      5       |              |      6       |      7       |      8       |      9       |      0       |              |
-                  &trans         &kp KP_N1      &kp KP_N2      &kp KP_N3      &kp KP_N4      &kp KP_N5                     &kp KP_N6      &kp KP_N7      &kp KP_N8      &kp KP_N9      &kp KP_N0      &trans         
-//                ___________________________________________________________________________________________              ___________________________________________________________________________________________               
-//                |              |              |              |              |              |              |              |              |              |              |              |              |              |              
-                  &trans         &trans         &trans         &trans         &trans         &trans                        &trans         &trans         &trans         &trans         &trans         &trans         
+                  &trans         &hw LGUI KP_N1 &hw LALT KP_N2 &hw LSHFT KP_N3 &hw LCTRL KP_N4 &kp KP_N5                   &kp KP_N6      &hw LCTRL KP_N7 &hw RSHFT KP_N8 &hw LALT KP_N9 &hw RGUI KP_N0 &trans         
+//                ___________________________________________________________________________________________              ___________________________________________________________________________________________
+//                |              |      {       |      "       |      ;       |      }       |       @      |              |      |       |      \       |              |              |              |              |
+                  &none          &kp LBRC       &kp DQT        &kp P          &kp RBRC       &kp AT                        &kp PIPE       &kp BSLH       &trans         &trans         &trans         &none         
 //                                                             ______________________________________________              ______________________________________________
 //                                                             |              |              |     ADJ      |              |              |              |              |
-                                                               &trans         &none          &trans                        &trans         &none          &none                            
+                                                               &trans         &kp SPACE      &trans                        &trans         &kp SPACE      &none                            
                         >;
                 };
                 nav_layer {
@@ -103,8 +103,8 @@
 // |               |               |      F1       |     F2        |     F3        |      F4       |      F5       |               |     F6        |     F7        |     F8        |     F9        |     F10       |     F11       |     F12      |
    &none           &none           &kp F1          &kp F2          &kp F3          &kp F4          &kp F5                          &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F11         &kp F12   
 //                 _________________________________________________________________________________________________               _________________________________________________________________________________________________
-//                 |               |      META     |      ALT      |      CTRL     |      SHIFT    |               |               |     HOME      |     LEFT      |      DOWN     |     UP        |     RIGHT     |     END       |
-                   &trans          &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHFT       &none                           &kp HOME        &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &kp END 
+//                 |               |      META     |      ALT      |   SHIFT       |      CTRL     |               |               |     HOME      |     LEFT      |      DOWN     |     UP        |     RIGHT     |     END       |
+                   &trans          &kp LGUI        &kp LALT        &kp LSHFT       &kp LCTRL              &none                           &kp HOME        &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &kp END 
 //                 _________________________________________________________________________________________________               _________________________________________________________________________________________________
 //                 |               |               |      DEL      |               |     INS       |               |               |               |               |     PGDOWN    |     PGUP      |               |               |
                    &trans          &none           &kp DEL         &none           &kp INS         &none                           &none           &none           &kp PG_DN       &kp PG_UP       &none           &trans          
