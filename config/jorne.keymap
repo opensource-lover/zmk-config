@@ -87,7 +87,7 @@
    &none          &kp GRAVE      &kp LBKT       &kp CARET      &kp DLLR       &kp RBKT       &kp PRCNT                     &kp AMPS       &kp EQUAL      &kp KP_MINUS   &kp KP_PLUS    &kp KP_MULTIPLY &none         &none
 //                ___________________________________________________________________________________________              ___________________________________________________________________________________________
 //                |              |      1       |      2       |      3       |      4       |      5       |              |      6       |      7       |      8       |      9       |      0       |              |
-                  &trans         &hw LGUI KP_N1 &hw LALT KP_N2 &hw LSHFT KP_N3 &hw LCTRL KP_N4 &kp KP_N5                   &kp KP_N6      &hw LCTRL KP_N7 &hw RSHFT KP_N8 &hw LALT KP_N9 &hw RGUI KP_N0 &trans         
+                  &trans         &hm LGUI KP_N1 &hm LALT KP_N2 &hm LSHFT KP_N3 &hm LCTRL KP_N4 &kp KP_N5                   &kp KP_N6      &hm LCTRL KP_N7 &hm RSHFT KP_N8 &hm LALT KP_N9 &hm RGUI KP_N0 &trans         
 //                ___________________________________________________________________________________________              ___________________________________________________________________________________________
 //                |              |      {       |      "       |      ;       |      }       |       @      |              |      |       |      \       |              |              |              |              |
                   &none          &kp LBRC       &kp DQT        &kp P          &kp RBRC       &kp AT                        &kp PIPE       &kp BSLH       &trans         &trans         &trans         &none         
